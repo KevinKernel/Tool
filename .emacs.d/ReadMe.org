@@ -1,0 +1,14 @@
+* 在Emacs中不关闭buffer就可以执行一条语句 
+** 用 emacs 打开 .emacs 文件，C-x C-e 光标前面的运行一条语句。立即生效。
+** 选择一个 region , M-x eval-region
+** M-x load-file ~/.emacs
+** M-x eval-buffer
+* Using-Emacs-help
+** C-h t -- Emacs tutorial
+** C-h i -- 打开info
+** C-h k -- 查看一个按键绑定到了哪个函数
+** C-h f -- 查看一个函数的文档
+** C-h v -- 查看一个变量的文档
+** C-h a -- 查找带某个keyword的函数/变量
+** M-x find-function -- 找一个函数的代码.
+** M-x man && M-x woman 查看manpages 

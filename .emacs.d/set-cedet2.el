@@ -1,0 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d/Tools/cedet-1.1/common")
+(require 'cedet)
+(require 'semantic-ia)
+(global-ede-mode 1)
+(semantic-load-enable-minimum-features) 
