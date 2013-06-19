@@ -1,0 +1,4 @@
+g:fortune_vimtips_auto_display	fortune_vimtips.txt	/*g:fortune_vimtips_auto_display*
+g:fortune_vimtips_display_in_tooltip	fortune_vimtips.txt	/*g:fortune_vimtips_display_in_tooltip*
+g:fortune_vimtips_file	fortune_vimtips.txt	/*g:fortune_vimtips_file*
+g:loaded_fortune_vimtips	fortune_vimtips.txt	/*g:loaded_fortune_vimtips*
