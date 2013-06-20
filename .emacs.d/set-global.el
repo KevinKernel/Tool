@@ -16,7 +16,7 @@
       scroll-conservatively 10000)
 
 ;; 匹配符号
-(global-set-key "%" 'match-paren)
+
 
 (defun match-paren (arg)
   "Go to the matching paren if on a paren; otherwise insert %."

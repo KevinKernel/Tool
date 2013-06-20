@@ -3,8 +3,10 @@
 (load "~/.emacs.d/Tools/subdirs")
 
 ;;导入文件
+(load "set-auto")
 (load "set-auto-complete.el")
 ;;(load "set-cedet.el")
+(load "set-c-mode")
 (load "set-font.el")
 (load "set-global.el")
 (load "set-org-mode.el")
