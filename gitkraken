@@ -1,0 +1,15 @@
+GitCracken
+git clone https://github.com/5cr1pt/GitCracken.git
+cd GitCracken/GitCracken
+rm yarn.lock
+yarn install
+yarn build
+# windows gitbash
+node dist/bin/gitcracken.js patcher --asar ~/AppData/Local/gitkraken/app-6.5.0/resources/app.asar
+# mac 
+node dist/bin/gitcracken.js patcher --asar 你的gitkraken的目录/resources/app.asar
+
+作者：裘信宏
+链接：https://juejin.im/post/5e686b05f265da57553df06d
+来源：掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
